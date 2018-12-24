@@ -29,7 +29,7 @@ window.onload = function () {
         const name = document.createElement("button");
         name.id = element.id;
         name.innerHTML = element.title;
-        name.classList.add("button");
+        name.classList.add("menu-item");
         menu.appendChild(name);
       });
       menu.addEventListener("click", function(evt){

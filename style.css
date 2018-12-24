@@ -13,26 +13,23 @@ h1 {
 }
 #container {
     width:700px;
-    height: 300px;
+    height:50%;
     display: flex;
     flex-direction: row; 
     margin: auto; 
-    border-radius: 6px; 
     flex-wrap: wrap;
-    box-shadow: 2px 83px 5px 2px #433a6b,
-                6px 88px 9px 2px #ffce34;
 }
 #menu{
-    width: 30%;
+    width: 25%;
     height: 100%;
     margin-left: auto;
-    margin-right: auto;
+    margin-right: 0;
     background: #136a8a; 
     background: -webkit-linear-gradient(to right, #267871, #136a8a);  
     background: linear-gradient(to right, #267871, #136a8a);
     display:flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: space-around;
     border-top-left-radius: 6px; 
     border-bottom-left-radius: 6px; 
     
@@ -40,48 +37,45 @@ h1 {
 
 #content {    
     background: #136a8a; 
-    background: -webkit-linear-gradient(to right, #267871, #136a8a);  
-    background: linear-gradient(to right, #267871, #136a8a);
-    padding: 10px;
-    margin-left: auto;
+    background: -webkit-linear-gradient(to right,#136a8a,#267871);  
+    background: linear-gradient(to right, #136a8a,#267871);
+    margin-left: 0;
     margin-right: auto;
     border-top-right-radius: 10px; 
     border-bottom-right-radius: 10px; 
-    width: 67%;
+    width: 69%;
     text-align: center;
     vertical-align: middle;
     display: flex;
     flex-wrap: wrap;
-    color:	#9f9bce;   
+    color:	#9f9bce;
+    padding: 20px; 
 }
-button {
+.menu-item {
     width: 100%;
     height: 30px;
     background: #136a8a;
     background: -webkit-linear-gradient(to right, #267871, #136a8a);  
     background: linear-gradient(to right, #267871, #136a8a);
     border:none;
-    /* border-color: #136a8a;
-    border-color: -webkit-linear-gradient(to right, #267871, #136a8a);  
-    border-color: linear-gradient(to right, #267871, #136a8a); */
     text-align: center;
     vertical-align: middle;
     color:#ffce34;
 }
- button:hover{
+.menu-item:hover{
     background:	#73b1bf;
     border:none;
     text-decoration: underline;
 } 
-button:visited{
+.menu-item:visited{
     background:	#73b1bf;
     border:none;
     text-decoration: underline;
 }
 
 img {
-    width: auto;
-    height: auto;
+    max-width: auto;
+    max-height:245px;
     margin-left: auto;
     margin-right: auto;
     border-radius:25px;
