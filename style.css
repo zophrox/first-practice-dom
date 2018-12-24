@@ -1,0 +1,95 @@
+html,body{
+    width:100%;
+    height: 100%;
+} 
+body{
+    background-color: 	#433a6b;
+}
+h1 {
+    text-align: center;
+    color:	#ffce34;
+    width: 100%;
+    text-decoration: underline;
+}
+#container {
+    width:700px;
+    height: 300px;
+    display: flex;
+    flex-direction: row; 
+    margin: auto; 
+    border-radius: 6px; 
+    flex-wrap: wrap;
+    box-shadow: 2px 83px 5px 2px #433a6b,
+                6px 88px 9px 2px #ffce34;
+}
+#menu{
+    width: 30%;
+    height: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    background: #136a8a; 
+    background: -webkit-linear-gradient(to right, #267871, #136a8a);  
+    background: linear-gradient(to right, #267871, #136a8a);
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    border-top-left-radius: 6px; 
+    border-bottom-left-radius: 6px; 
+    
+}
+
+#content {    
+    background: #136a8a; 
+    background: -webkit-linear-gradient(to right, #267871, #136a8a);  
+    background: linear-gradient(to right, #267871, #136a8a);
+    padding: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    border-top-right-radius: 10px; 
+    border-bottom-right-radius: 10px; 
+    width: 67%;
+    text-align: center;
+    vertical-align: middle;
+    display: flex;
+    flex-wrap: wrap;
+    color:	#9f9bce;   
+}
+button {
+    width: 100%;
+    height: 30px;
+    background: #136a8a;
+    background: -webkit-linear-gradient(to right, #267871, #136a8a);  
+    background: linear-gradient(to right, #267871, #136a8a);
+    border:none;
+    /* border-color: #136a8a;
+    border-color: -webkit-linear-gradient(to right, #267871, #136a8a);  
+    border-color: linear-gradient(to right, #267871, #136a8a); */
+    text-align: center;
+    vertical-align: middle;
+    color:#ffce34;
+}
+ button:hover{
+    background:	#73b1bf;
+    border:none;
+    text-decoration: underline;
+} 
+button:visited{
+    background:	#73b1bf;
+    border:none;
+    text-decoration: underline;
+}
+
+img {
+    width: auto;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius:25px;
+    padding: 20px;
+}
+h2 {
+    color:	#ffce34;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
